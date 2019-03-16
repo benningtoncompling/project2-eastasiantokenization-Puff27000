@@ -111,7 +111,6 @@ def tokenize(line):
         elif curr_state is q9:
             curr_state = start_state
 
-        output_string += char
         next_state = curr_state.get_nextstate(char)
 
         print(output_string)
@@ -119,9 +118,11 @@ def tokenize(line):
         print("->" + str(next_state.state_number))
 
         if next_state is q7 or next_state is q8:
-            output_string += " " + char + "R"
+            output_string += " " + char
         elif next_state is q9:
-            output_string += char + " " + "L"
+            output_string += char + " "
+        else:
+            output_string += char
         curr_state = next_state
     return output_string
 
