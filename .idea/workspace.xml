@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="607224e1-48a3-4fbf-849d-180036d1a1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer_graph.py" afterDir="false" />
+    <list default="true" id="607224e1-48a3-4fbf-849d-180036d1a1a1" name="Default Changelist" comment="successful basic graph implementation!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thai Tokenizer/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Thai_Tokenizer/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thai Tokenizer/sample_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Thai_Tokenizer/sample_out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thai Tokenizer/thai_tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +26,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer_graph.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+                <state relative-caret-position="275">
+                  <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
                   <folding>
                     <element signature="e#41#51#0" expanded="true" />
                   </folding>
@@ -51,8 +47,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/puff_out.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+                <state relative-caret-position="150">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -74,7 +70,7 @@
             <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/sample_out.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -210,6 +206,21 @@
       <option name="presentableId" value="Default" />
       <updated>1552327310043</updated>
     </task>
+    <task id="LOCAL-00001" summary="Not-quite-working graph implementation for Thai (some character repeats)">
+      <created>1552776041523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552776041523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="successful basic graph implementation!">
+      <created>1552777062054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552777062054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -254,18 +265,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Not-quite-working graph implementation for Thai (some character repeats)" />
+    <MESSAGE value="successful basic graph implementation!" />
+    <option name="LAST_COMMIT_MESSAGE" value="successful basic graph implementation!" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -278,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/thai_tokenizer_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        <state relative-caret-position="275">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
           <folding>
             <element signature="e#41#51#0" expanded="true" />
           </folding>
@@ -288,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thai_Tokenizer/puff_out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
